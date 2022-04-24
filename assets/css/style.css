@@ -1,0 +1,39 @@
+:root {
+  font-family: sans-serif;
+}
+.nav-list {
+  font-size: 0;
+}
+.nav-item {
+  display: inline-block;
+  position: relative;
+  background-color: #47986d;
+  color: white;
+  font-size: initial;
+  text-transform: capitalize;
+}
+.nav-link {
+  display: block;
+  padding: 20px;
+}
+.nav-item:hover {
+  background-color: #3c805b;
+}
+.sab-nav-list {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.sab-nav-list > .nav-item {
+  display: block;
+  text-align: center;
+}
+.nav-item:hover > .sab-nav-list {
+  display: block;
+}
+.sab-nav-list .sab-nav-list {
+  width: 100%;
+  left: 100%;
+  top: 0;
+}
